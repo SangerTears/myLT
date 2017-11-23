@@ -1,1 +1,41 @@
-/*# sourceMappingURL=./index.css.map */
+.view {
+  position: relative;
+  height: 100%;
+  background-color: #fff;
+}
+.product_nav {
+  padding: 5px 10px;
+}
+.product_nav > a {
+  width: 33.3%;
+  float: left;
+  display: block;
+}
+.product_nav > a > img {
+  display: block;
+  width: 100%;
+}
+.product_list .product_item {
+  padding: 5px;
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.product_list .product_item .product_in_item {
+  border: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.product_list .product_item .product_in_item img {
+  display: block;
+  width: 100%;
+}
+.product_list .product_item .product_in_item .pro_price {
+  font_size: 12px;
+}
+.product_list .product_item .product_in_item .pro_price .new_price {
+  color: red;
+}
+.product_list .product_item .product_in_item .pro_price .old_price {
+  color: #666;
+  text-decoration: line-through;
+}

@@ -1,41 +1,52 @@
-header {
-  height: 40px;
-  background-color: #27a5a3;
+/* 顶部*/
+html,
+body {
+  height: 100%;
+}
+body {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.topbar {
+  height: 45px;
+  width: 100%;
+  background-color: #006699;
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
   position: fixed;
   top: 0;
-  width: 100%;
-  padding: 5px 7px;
 }
-header h2 {
-  color: #fff;
-  text-align: center;
-  font-weight: normal;
-  font-size: 20px;
-}
-header h2 a.lt_header_rt {
-  color: #fff;
+.topbar .le_search {
+  color: inherit;
   float: right;
+  font-weight: 200;
 }
+/*页尾*/
 footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
   height: 45px;
-  background-color: #27a5a3;
-  text-align: center;
-  color: #fff;
-  padding-top: 4px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  background-color: #006699;
+  padding-top: 5px;
 }
 footer a {
+  display: block;
   float: left;
   width: 25%;
-  color: inherit;
+  color: #fff;
+  text-align: center;
 }
 footer a .mui-icon {
-  font-size: 18px;
+  font-size: 16px;
 }
 footer a p {
   color: inherit;
   font-size: 12px;
 }
-/*# sourceMappingURL=./common.css.map */
+footer .active {
+  color: orangered;
+}
